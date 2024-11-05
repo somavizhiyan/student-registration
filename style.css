@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container,.table-container{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+form{
+    width: 500px;
+    background-color: rgb(185, 183, 180);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    align-items: c;
+}
+#username,#email,#class,#dob{
+    flex: 1 0 2rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+form button{
+    width: fit-content;
+    padding: 5px 10px;
+    margin-left: 40%;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+form button:hover{
+    background-color: green;
+    color: white;
+}
+table{
+    width: 70%;
+}
+thead{
+    background-color: rgb(67, 65, 65);
+    color: white;
+}
+thead th {
+    padding: 10px;
+}
+table button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+table button:hover{
+    background-color: red;
+    color: white;
+}
+tbody td{
+    padding: 15px;
+}
